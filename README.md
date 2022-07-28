@@ -1,4 +1,4 @@
-# Bharath Computer
+# Responsive Website
 
 Visit - [bharathcomputer](https://bharathcomputer.netlify.app)
 
