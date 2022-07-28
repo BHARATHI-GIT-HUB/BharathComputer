@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e2a53c8.css",
+    "main.js": "/static/js/main.49d23310.js",
+    "static/media/GamingCpu-2.jpg": "/static/media/GamingCpu-2.87da9964db689bc712fe.jpg",
+    "static/media/VirusProcessRemoving.jpeg": "/static/media/VirusProcessRemoving.af3b212b2a6924a026dd.jpeg",
+    "static/media/GamingCpu-1.jpg": "/static/media/GamingCpu-1.58142fda5e39474d1611.jpg",
+    "static/media/Computer-Repair.jpg": "/static/media/Computer-Repair.469c38b56c2c6076bfc7.jpg",
+    "static/media/Lap-Repair.jpg": "/static/media/Lap-Repair.547176702a03747f7867.jpg",
+    "static/media/Lap-service.jpeg": "/static/media/Lap-service.537c5d98e3dbfa571d60.jpeg",
+    "static/media/Custom-PC-Repair.jpg": "/static/media/Custom-PC-Repair.f9ca0ffd89af7b99bc26.jpg",
+    "static/media/ChipImage-2.jpg": "/static/media/ChipImage-2.1f8126914c3aeb58f647.jpg",
+    "static/media/Custom-PC.jpg": "/static/media/Custom-PC.c5787cd1fd86a053d22b.jpg",
+    "static/media/Chip-Service.jpg": "/static/media/Chip-Service.9ae9d38d6e5235dbcd83.jpg",
+    "static/media/Water-Damage-2.jpeg": "/static/media/Water-Damage-2.aa66f8c5068fc4acc263.jpeg",
+    "static/media/Data-Recovery.jpg": "/static/media/Data-Recovery.9c2a180f4a1998a6e617.jpg",
+    "static/media/ChipImage-1.jpg": "/static/media/ChipImage-1.41a3830e7253feb43779.jpg",
+    "static/media/Water-Damage-1.jpeg": "/static/media/Water-Damage-1.f45a467f769c81aa316b.jpeg",
+    "static/media/Virus-Removal.jpeg": "/static/media/Virus-Removal.86017e01d8bf346afa09.jpeg",
+    "static/media/Trust.jpg": "/static/media/Trust.56166bd630612e61bccc.jpg",
+    "static/media/Virus.jpg": "/static/media/Virus.1e26dc313398d14eae7e.jpg",
+    "static/media/Malware.jpg": "/static/media/Malware.9172a134155c56da1275.jpg",
+    "static/media/liquidDamage.jpeg": "/static/media/liquidDamage.121b476c35fbb927975a.jpeg",
+    "static/media/Bc-Logo.png": "/static/media/Bc-Logo.9d40fa0e42892a947247.png",
+    "static/media/Windows-PC-Repair.jpg": "/static/media/Windows-PC-Repair.9a25004e6b4c0dc8dc65.jpg",
+    "index.html": "/index.html",
+    "main.5e2a53c8.css.map": "/static/css/main.5e2a53c8.css.map",
+    "main.49d23310.js.map": "/static/js/main.49d23310.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e2a53c8.css",
+    "static/js/main.49d23310.js"
+  ]
+}
