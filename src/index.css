@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: none;
+}
+a:hover {
+  color: none;
+}
+
+.primary-btn {
+  max-width: max-content;
+  font-size: large;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.3rem;
+  color: white;
+  background-color: rgb(0, 191, 165);
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.primary-btn:hover {
+  background-color: #2e4c66;
+  transition: 0.4s;
+}
+.secondary-btn {
+  max-width: max-content;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.3rem;
+  color: #2e4c66;
+  border: 2px solid #2e4c66;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.secondary-btn:hover {
+  background-color: #2e4c66;
+  color: white;
+  transition: 0.3s;
+}
+
+.White-btn {
+  padding: 0.2rem;
+  border: white;
+  border-radius: 0.2rem;
+  background-color: rgb(235, 238, 241);
+  color: #2e4c66;
+  font-size: 0.7rem;
+}
+.White-btn:hover {
+  background-color: transparent;
+  color: white !important;
+  transition: 0.3s;
+}
+
+/* Img-OverLay-Effect */
+.Image {
+  object-fit: cover;
+  height: 350px !important;
+  width: 100%;
+  filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.Caption {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Caption > p {
+  max-width: 50%;
+  font-size: 3vw;
+  text-align: center;
+  color: #ffff;
+}
+.Caption > h1 {
+  max-width: 500px;
+  /* font-weight: 300; */
+  width: 85vw;
+
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 768px) {
+  .Image {
+    object-fit: cover;
+    height: 700px !important;
+    width: 100%;
+  }
+  .Caption {
+    gap: 2rem;
+  }
+  .Caption > p {
+    max-width: 500px;
+    font-weight: 300;
+    /* font-size: 20px; */
+    /* line-height: 30px; */
+  }
+  .Caption > h1 {
+    max-width: 900px;
+    /* font-weight: 300; */
+    /* font-size: 62px; */
+  }
+  .secondary-btn {
+    font-size: larger;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .White-btn {
+    padding: 0.4rem 0.6rem;
+    border: solid white;
+    border-radius: 0.3rem;
+    background-color: rgb(235, 238, 241);
+    color: #2e4c66;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .White-btn:hover {
+    display: block;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+  }
+}

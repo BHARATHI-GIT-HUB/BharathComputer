@@ -1,0 +1,9 @@
+/* css for cards in mainbody */
+
+.Card-Caption {
+  background-image: linear-gradient(
+    180deg,
+    #004966 -50%,
+    rgba(0, 73, 102, 0.302) 100%
+  );
+}

@@ -1,0 +1,127 @@
+.Content-Windows-Pc-Repair {
+  position: absolute;
+  text-align: center;
+  top: 3rem;
+  color: #f7f7f7;
+  font-family: "Open Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.Content-Windows-Pc-Repair {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Content-Windows-Pc-Repair p {
+  width: 40rem;
+}
+.link-Windows-Pc,
+.link-Windows-Pc:hover {
+  color: #f7f7f7;
+  text-decoration: none;
+  cursor: pointer;
+}
+.LiquidDamage-img-Contaienr {
+  position: relative;
+}
+.LiquidDamage-Container-Content {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  left: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  height: 36rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 8rem 2rem 8rem 2rem;
+}
+.CustomPc-img-Container {
+  position: relative;
+}
+.CustomPc-Container-Content {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  left: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  height: 36rem;
+  background-image: linear-gradient(
+    180deg,
+    #004966 -50%,
+    rgba(0, 73, 102, 0.302) 100%
+  );
+
+  padding: 8rem 2rem 8rem 2rem;
+}
+.DataRecovery-img-Container {
+  position: relative;
+}
+.DataRecovery-Container-Content {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  left: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  height: 36rem;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 13, 56, 0.5) 20%,
+    rgba(0, 13, 56, 0.3) 100%
+  );
+  padding: 8rem 2rem 8rem 2rem;
+}
+
+.ChipLevelService-Img-Container {
+  position: relative;
+}
+.ChipLevelService-Container-Content {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  left: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  height: 36rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8rem 2rem 8rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .LiquidDamage-img-Contaienr img,
+  .CustomPc-img-Container img,
+  .DataRecovery-img-Container img,
+  .ChipLevelService-Img-Container img {
+    width: 34rem;
+    height: 36rem;
+    object-fit: cover;
+  }
+  .img-Container-1,
+  .img-Container-2 {
+    width: full !important;
+    display: grid;
+    grid-template-columns: 36rem 36rem;
+    justify-content: center;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 600;
+  }
+}
