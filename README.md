@@ -1,6 +1,6 @@
 # Responsive Website
 
-Visit - [bharathcomputer](https://bharathcomputer.netlify.app)
+Visit - [BharathComputer](https://bharathcomputer.netlify.app)
 
 <img width="860" alt="Cover" src="https://user-images.githubusercontent.com/88837161/181501536-8cb67163-bfb5-4aa6-ae35-c928672621bf.png">
 
