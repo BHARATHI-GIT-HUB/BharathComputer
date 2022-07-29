@@ -5,10 +5,27 @@ import Mail from "../../assets/Icons/Mail.jsx";
 import { Link, NavLink } from "react-router-dom";
 import BcLogo from "../../assets/Images/Bc-Logo.png";
 import Menu from "../../assets/Icons/Menu";
-import { useState } from "react";
-// import Mail from "../../assets/Icons/Mail";
+import { useEffect } from "react";
+import "./header.css";
+// want to work on it?\
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  useEffect(() => {
+    window.onscroll = function () {
+      myFunction();
+    };
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  });
 
   return (
     <div className=" overflow-hidden ">
@@ -53,7 +70,10 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="header-lower  sticky top-0 z-50  md:rounded-r-[0.3rem] md:shadow-lg bg-white  ">
+      <div
+        id="myHeader"
+        className="header-lower  sticky top-0 z-50  md:rounded-r-[0.3rem] md:shadow-lg bg-white  "
+      >
         <div className="flex items-center  h-16  ">
           <div className="absolute right-3 flex items-center md:hidden">
             <button

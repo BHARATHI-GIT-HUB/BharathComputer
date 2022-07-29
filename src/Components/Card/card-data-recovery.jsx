@@ -10,31 +10,30 @@ const CardDataRecovery = () => {
     <div className="flex flex-col justify-center items-center gap-[4rem] sm:m-[3rem]  my-[2rem]  px-[2.1rem] ">
       <div className="grid grid-cols-1 lg:grid-cols-3  justify-center items-center text-center gap-[2rem] md:gap-[2.5rem]  ">
         <Link to={"/Make-Appoiment"} className="h-full hover:text-blue">
-          <Card className="h-full flex justify-center items-center  md:gap-[3rem] gap-[1.3rem]  p-3  sm:h-[25rem] lg:h-full   md:p-[3rem] shadow-md rounded-lg transform transition duration-500 hover:shadow-2xl hover:scale-110 ">
+          <Card className=" flex justify-center items-center  md:gap-[3rem] gap-[1.3rem]  p-3   lg:h-[35rem]    md:p-[3rem] shadow-md rounded-lg transform transition duration-500 hover:shadow-2xl hover:scale-110 ">
             <Upload />
             <div className="md:gap-7 flex flex-col">
               <h3 className=" text-secondarypara md:text-[2.2rem] text-green">
                 BACK UP
               </h3>
-              <p className="text-[.8rem] md:text-[1em]  lg:w-none ">
+              <p className="text-[.8rem] md:text-[1em]  lg:w-none overflow-auto ">
                 Regularly and continually backing up your computer remains the
                 best proactive strategy for ensuring you will be always able to
                 recover critical data. Over time, every computer hard drive will
                 eventually fail; the typical lifespan of a hard drive is only
                 3-5 years and they are especially sensitive to shock, moisture,
-                and heat/cold. Being prepared by regularly backing up your data
-                is vital.
+                and heat/cold.
               </p>
             </div>
           </Card>
         </Link>
         <Link to={"/Make-Appoinment"} className="h-full hover:text-blue">
-          <Card className="h-full flex justify-center items-center md:gap-[2.4rem] gap-[1.3rem] sm:h-[25rem] lg:h-full p-3  md:px-5  shadow-md rounded-lg transform transition duration-500 hover:shadow-2xl hover:scale-110 ">
+          <Card className=" flex justify-center items-center md:gap-[2.4rem] gap-[1.3rem]  p-3  lg:h-[35rem] md:px-[3rem]  shadow-md rounded-lg transform transition duration-500 hover:shadow-2xl hover:scale-110 ">
             <Ask />
             <h3 className="text-secondarypara md:text-[2.2rem] text-blue break-words">
               CONSULTATION
             </h3>
-            <p className=" text-[.8rem] md:text-[1em]  ">
+            <p className=" text-[.8rem] md:text-[1em] overflow-auto ">
               While backup software now comes bundled with the operating systems
               for Macs and PCs, our Apple technicians and experts for data
               recovery services in BharathComputer can also recommend custom
@@ -45,12 +44,12 @@ const CardDataRecovery = () => {
           </Card>
         </Link>
         <Link to={"/Make-Appoinment"} className="h-full hover:text-blue">
-          <Card className="h-full flex justify-center items-center md:gap-[2rem] gap-[1.3rem] p-3 sm:h-[25rem] lg:h-full md:p-5 shadow-md rounded-lg transform transition duration-500 hover:shadow-2xl hover:scale-110">
+          <Card className=" flex justify-center items-center md:gap-[2rem] gap-[1.3rem] p-3 lg:h-[35rem] md:p-5 shadow-md rounded-lg transform transition duration-500 hover:shadow-2xl hover:scale-110">
             <Alert />
             <h3 className="text-secondarypara md:text-[2.2rem] text-green">
               BUYER BEWARE!
             </h3>
-            <p className=" text-[.8rem] md:text-[1em] ">
+            <p className=" text-[.8rem] md:text-[1em] overflow-auto ">
               Some data recovery companies offer a handful of free services,
               providing incomplete or inaccurate diagnostic results and often
               ending with failed recovery. At our data recovery services in

@@ -16,10 +16,10 @@ const WindowsRepair = () => {
           Whether you are a business or an individual looking to fix your
           Windows computer, you can trust us to take care of all your needs. We
           have years of experience dealing with windows repair and installation
-          in Seattle. We understand that computers make our lives and business
-          much easier; when they are not working the way they are supposed to,
-          it can become a hassle. Our aim is to offer outstanding service to
-          troubleshoot and repair your computer.
+          in BharathComputer. We understand that computers make our lives and
+          business much easier; when they are not working the way they are
+          supposed to, it can become a hassle. Our aim is to offer outstanding
+          service to troubleshoot and repair your computer.
         </p>
         <p className="lg:text-primarypara">
           Below are some of the services we provide:
@@ -94,18 +94,18 @@ const WindowsRepair = () => {
           />
           <div className=" absolute !font-OpenSnas  text-white bg-opacity top-0 text-center w-full h-full flex flex-col justify-center gap-3 lg:gap-[3rem] rounded-lg px-[1rem] lg:px-[2rem]">
             <h1 className="text-secondaryheading md:text-primaryheading md:font-normal">
-              Data Recovery Seattle Data & Hard Drive Recovery for Computers and
-              Laptops{" "}
+              Data Recovery BharathComputer Data & Hard Drive Recovery for
+              Computers and Laptops{" "}
             </h1>
             <p className="text-secondaryypara lg:text-primarypara lg:px-[6rem]">
               Our Apple Certified Technicians have the knowledge and experience
               to recover data from a wide range of any failed mass storage
-              device – hard drives, SSD drives, USB flash drives (thumb drives),
-              compact flash cards, SD cards, and others. When all other attempts
-              to recover your data in-house have been exhausted, we can
-              recommend additional recovery options with DriveSavers. They are
-              an external partner and align nicely with our core values of
-              honesty and integrity.{" "}
+              device – hard drives, SSD drives, USB flash drives , compact flash
+              cards, SD cards, and others. When all other attempts to recover
+              your data in-house have been exhausted, we can recommend
+              additional recovery options with DriveSavers. They are an external
+              partner and align nicely with our core values of honesty and
+              integrity.{" "}
             </p>
             <Link
               to={"/Make-Appoinment "}

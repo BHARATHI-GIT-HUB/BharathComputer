@@ -15,8 +15,8 @@ const Footer = () => {
           </div>
           <p className=" text-center md:!text-start px-22  ">
             This Website was made with React,Tailwind css, Bootstrap, and with
-            Passion, Feel Free To Give Your FeedBack About About This Website
-            And If Your Looking Forward a website For Your Company:
+            Passion, Feel Free To Give Your FeedBack About This Website And If
+            Your Looking Forward a website For Your Company:
           </p>
           <a
             href="mailto:sbharathi261@gmail.com"

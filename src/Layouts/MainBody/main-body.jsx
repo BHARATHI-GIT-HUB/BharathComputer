@@ -5,6 +5,7 @@ import Carousel from "../../Components/Carousel/carousel";
 import WindowsPC from "../../assets/Images/Windows-PC-Repair.jpg";
 import DoubleQuote from "../../assets/Icons/DoubleQuote";
 import Header from "../Header/header";
+
 const MainBody = () => {
   return (
     <div className="">

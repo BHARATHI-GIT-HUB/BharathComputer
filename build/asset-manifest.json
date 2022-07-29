@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e2a53c8.css",
-    "main.js": "/static/js/main.49d23310.js",
+    "main.css": "/static/css/main.3dd2b0e0.css",
+    "main.js": "/static/js/main.64425f53.js",
     "static/media/GamingCpu-2.jpg": "/static/media/GamingCpu-2.87da9964db689bc712fe.jpg",
     "static/media/VirusProcessRemoving.jpeg": "/static/media/VirusProcessRemoving.af3b212b2a6924a026dd.jpeg",
     "static/media/GamingCpu-1.jpg": "/static/media/GamingCpu-1.58142fda5e39474d1611.jpg",
@@ -24,11 +24,11 @@
     "static/media/Bc-Logo.png": "/static/media/Bc-Logo.9d40fa0e42892a947247.png",
     "static/media/Windows-PC-Repair.jpg": "/static/media/Windows-PC-Repair.9a25004e6b4c0dc8dc65.jpg",
     "index.html": "/index.html",
-    "main.5e2a53c8.css.map": "/static/css/main.5e2a53c8.css.map",
-    "main.49d23310.js.map": "/static/js/main.49d23310.js.map"
+    "main.3dd2b0e0.css.map": "/static/css/main.3dd2b0e0.css.map",
+    "main.64425f53.js.map": "/static/js/main.64425f53.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e2a53c8.css",
-    "static/js/main.49d23310.js"
+    "static/css/main.3dd2b0e0.css",
+    "static/js/main.64425f53.js"
   ]
 }
