@@ -17,7 +17,7 @@ const MakeAppoinment = () => {
             <span className=" text-green">+91 8056965276</span>
           </p>
           <p className="text-secondarypara  md:text-[1.2rem] text-center w-[15rem] md:w-[28rem] ">
-            We are located on theNazareth College of Arts and Science,
+            We are located near Nazareth College of Arts and Science,
             Kannadapalayam Main Road, Chennai, Tamil Nadu
           </p>
         </div>

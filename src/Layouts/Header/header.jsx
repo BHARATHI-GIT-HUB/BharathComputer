@@ -31,7 +31,7 @@ const Header = () => {
     <div className=" overflow-hidden ">
       <div className="hearder-upper   bg-blue text-white md:h-[10rem]  lg:h-[5rem]  ">
         <div className=" container flex flex-col  justify-between items-center  md:flex-col lg:flex-row gap-4 md:gap-2 ">
-          <div className="pt-4 md:!pt-0 cursor-pointer">
+          <div className="pl-[1rem] pt-4 md:pl-[0rem] md:!pt-3 lg:!pt-0 lg:!pl-[0rem] cursor-pointer">
             <Link to="./">
               <img src={BcLogo} alt="" className=" h-14 object-cover" />
             </Link>
@@ -84,7 +84,7 @@ const Header = () => {
               <Menu />
             </button>
           </div>
-          <div className="container lg:ml-[4.5rem]   flex items-center justify-center font-Inter  sm:items-stretch sm:justify-start ">
+          <div className="container lg:ml-[4.9rem]   flex items-center justify-center font-Inter  sm:items-stretch sm:justify-start ">
             <div className="hidden lg:flex  justify-around items-center md:block ">
               <div className="flex gap-x-[2rem] ">
                 <NavLink
@@ -176,7 +176,7 @@ const Header = () => {
               to={"/Data-Recovery"}
               className="text-blue hover: hover:text-green block px-3 py-2 rounded-md text-base font-medium"
             >
-              DataRecovety
+              DataRecovery
             </Link>
 
             <Link
